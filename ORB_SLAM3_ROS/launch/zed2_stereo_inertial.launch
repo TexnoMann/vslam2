@@ -14,7 +14,7 @@
 
     <!--    ORB_SLAM3 arguments -->
     <param name="Vocab_path" type="string" value="$(find vslam2)/ORB_SLAM3/Vocabulary/ORBvoc.txt" />
-    <param name="Params" type="string" value="$(find vslam2)/ORB_SLAM3_ROS/params/Stereo-Inertial/Zed2.yaml" />
+    <param name="Params" type="string" value="$(find vslam2)/ORB_SLAM3_ROS/params/Stereo-Inertial/Zed2_iros.yaml" />
     <param name="Output_name" type="string" value="zed2" />
 
     <!--    Enable the Pangolin visualization-->

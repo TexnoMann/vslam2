@@ -9,8 +9,11 @@ For building the docker image use:
 For running the bash inside docker image please use:
 ```bash
 ./open_docker.sh
+roslaunch vslam2
 ```
 For running ros node type:
 ```bash
 ./run_docker.sh
 ```
+
+## If you want run without 
