@@ -1,8 +1,8 @@
 FIND_PATH(DBoW2_INCLUDE_DIR
         NAMES DBoW2/DBoW2/TemplatedVocabulary.h
-        HINTS /home/wfram/vslam2_ws/build/dbow2_catkin/devel/include
+        HINTS $ENV{CATKIN_WS}/build/dbow2_catkin/devel/include
         )
-message("SEARCHING in /home/wfram/vslam2_ws/build/dbow2_catkin/devel")
+message("SEARCHING in $ENV{CATKIN_WS}/build/dbow2_catkin/devel")
 if (DBoW2_INCLUDE_DIR)
     message("CMake Modules found DBoW2:  ${DBoW2_INCLUDE_DIR}")
     find_library(DBoW2_LIBRARY DBoW2
@@ -16,8 +16,8 @@ if (DBoW2_INCLUDE_DIR)
     endif ()
 else ()
     message("CMake Modules DBoW2 not found | bdc HARDCODING")
-    set(DBoW2_INCLUDE_DIR /home/wfram/vslam2_ws/devel/include/)
-    set(DBoW2_LIBRARY /home/wfram/vslam2_ws/devel/lib/DBoW2/libDBoW2.so)
+    set(DBoW2_INCLUDE_DIR $ENV{CATKIN_WS}/devel/include/)
+    set(DBoW2_LIBRARY $ENV{CATKIN_WS}/devel/lib/DBoW2/libDBoW2.so)
     message("CMake Modules DBoW2 INCLUDE:  ${DBoW2_INCLUDE_DIR}")
     message("CMake Modules DBoW2 LIB    :  ${DBoW2_LIBRARY}")
 endif ()
