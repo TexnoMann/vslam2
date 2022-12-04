@@ -16,4 +16,4 @@ For running ros node type:
 ./run_docker.sh
 ```
 
-## If you want run without 
+## If you want run without Docker
