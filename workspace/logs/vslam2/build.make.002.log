@@ -1,6 +1,0 @@
-[ 16%] Built target vslam2
-[ 33%] Built target vslam2_stereo
-[ 50%] Built target vslam2_stereo_inertial
-[ 66%] Built target vslam2_mono_inertial
-[ 83%] Built target vslam2_stereo_inertial_new
-[100%] Built target vslam2_stereo_inertial_offline_new

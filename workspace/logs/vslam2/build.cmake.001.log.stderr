@@ -1,5 +1,0 @@
-SEARCHING in /workspace/build/dbow2_catkin/devel
-CMake Modules found DBoW2:  /workspace/devel/include
-CMake Modules DBoW2 LIB:  /workspace/devel/lib/DBoW2/libDBoW2.so
-CMake Modules found g2o:  /workspace/devel/include
-CMake Modules g2o LIB:  /workspace/devel/lib/g2o/libg2o.so

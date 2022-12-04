@@ -1,9 +1,0 @@
-Symlinking /workspace/devel/share/vslam2/cmake/vslam2Config.cmake
-Symlinking /workspace/devel/share/vslam2/cmake/vslam2Config-version.cmake
-Symlinking /workspace/devel/lib/libvslam2.so
-Symlinking /workspace/devel/lib/vslam2/vslam2_stereo_inertial
-Symlinking /workspace/devel/lib/vslam2/vslam2_stereo_inertial_new
-Symlinking /workspace/devel/lib/vslam2/vslam2_stereo_inertial_offline_new
-Symlinking /workspace/devel/lib/vslam2/vslam2_stereo
-Symlinking /workspace/devel/lib/vslam2/vslam2_mono_inertial
-Symlinking /workspace/devel/lib/pkgconfig/vslam2.pc
